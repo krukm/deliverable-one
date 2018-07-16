@@ -1,5 +1,9 @@
+h1 {
+    padding: 10px;
+}
 p {
     font-family: 'Space Mono', monospace;
+    padding: 10px;
 }
 .flex-grid {
     display: flex;
