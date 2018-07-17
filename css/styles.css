@@ -44,6 +44,11 @@ blockquote {
     font-size: 90%;
 }
 
+footer {
+    padding: 5px;
+    text-align: right;
+}
+
 .flex-grid {
     display: flex;
     justify-content: space-around;
@@ -55,7 +60,7 @@ blockquote {
 
 .caption {
     text-align: center;
-    font-style: italic;
+    font-size: 80%;
 }
 
 .contact {
