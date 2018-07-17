@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="flex-grid">
-        <div><img src="forest.jpeg" alt="Beautiful tree image"><p class="caption">Enjoy the beauty of nature</p></div>
-        <div><h2>Welcome to your premier destination for self re-alignment!</h2>
+        <div class="col"><img src="forest.jpeg" alt="Beautiful tree image"><p class="caption">Enjoy the beauty of nature</p></div>
+        <div class="col"><h2>Welcome to your premier destination for self re-alignment!</h2>
             <p>You have found potentially the most life-changing/ soul-mending retreat experience you will ever experience. Our nature retreat offers beauty and serenity the likes of which you have never imagined. After our three day program, you will be ready to face the world with renewed hope and a revitalized perspective.</p>
             <p>Here's what people are saying: 
                 <blockquote>
@@ -23,7 +23,17 @@
                 </blockquote>
             </p>
         </div>
-        <div>col 3</div>
+        <div class="col">
+            <div><h3>Reserve your spot in our next session:</h3></div>
+            <div class="contact">
+                <form>
+                    <input name="name" type="text" placeholder="name"/><br>
+                    <input name="email" type="text" placeholder="email"/><br>
+                    <textarea name="message" placeholder="Send us a message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </div>
     <script src="scripts/script.js"></script>
 </body>
